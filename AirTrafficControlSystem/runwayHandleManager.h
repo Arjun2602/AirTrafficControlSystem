@@ -1,0 +1,10 @@
+#ifndef RUNWAYHANDLEMANAGER_H_INCLUDED
+#define RUNWAYHANDLEMANAGER_H_INCLUDED
+
+class RunwayThreadManager
+{
+public:
+
+};
+
+#endif // RUNWAYHANDLEMANAGER_H_INCLUDED
