@@ -18,4 +18,11 @@ A C++-based console application that simulates an air traffic control system, ma
 - **Concepts**: Multithreading, OOP, STL (`map`, `unordered_map`)
 - **Tools**: Git, GitHub
 
-## Project Structure
+## How it Works
+
+- User selects a flight operation (Takeoff or Landing).
+- The system checks runway availability.
+- Runways are dynamically allocated based on flight weight and maximum allowed seconds.
+- Threads simulate runway usage for a given duration.
+- Runways are marked busy during operations and freed after the thread completes.
+
